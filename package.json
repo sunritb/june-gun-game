@@ -1,1 +1,48 @@
-{"name":"june-gun-game","type":"module","dependencies":{"esbuild":"^0.28.2","puppeteer-core":"^25.7.0","three":"^0.160.0"}}
+{
+  "name": "@sunritb/june-gun-game",
+  "version": "0.1.0",
+  "description": "Browser-based FPS prototype: realistic ballistics, recoil, layered procedural audio, wave combat with Indian-style NPCs, and a festival arena.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sunrit Biswas",
+  "keywords": [
+    "game",
+    "fps",
+    "shooter",
+    "three.js",
+    "threejs",
+    "webgl",
+    "browser-game",
+    "html5-game",
+    "prototype"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunritb/june-gun-game.git"
+  },
+  "homepage": "https://sunritb.github.io/june-gun-game/",
+  "bugs": {
+    "url": "https://github.com/sunritb/june-gun-game/issues"
+  },
+  "files": [
+    "index.html",
+    "bundle/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "for f in src/*.js; do node --check \"$f\"; done"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "puppeteer-core": "^25.7.0",
+    "three": "^0.160.0"
+  }
+}
