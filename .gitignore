@@ -1,0 +1,11 @@
+# dependencies / dev tooling
+node_modules/
+
+# vendored three.js (dev only; game ships prebuilt bundle)
+vendor/
+
+# build artifacts
+*.log
+
+# OS / editor
+.DS_Store
