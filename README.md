@@ -1,9 +1,18 @@
 # JUNE GUN GAME — Technical Prototype
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Browser-based FPS prototype built from the *June Gun Game* Executive Summary (PDF).
 This is the **client-side combat core**: realistic ballistics, recoil, layered procedural audio,
 wave combat, and a PC-oriented HUD. Networking / backend / monetization from the spec are
 architectural recommendations, not implemented here (see PDF).
+
+## ▶ Play it live
+
+**https://sunritb.github.io/june-gun-game/**
+
+No install, no login — open the link, click **DEPLOY** (mouse locks), and play.
+Deployed automatically to GitHub Pages from `main`.
 
 ## Play
 
